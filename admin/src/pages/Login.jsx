@@ -8,8 +8,11 @@ const Login = () => {
 
   const [state, setState] = useState('Admin')
 
-  const [email, setEmail] = useState('')
-  const [password, setPassword] = useState('')
+  const ADMIN_EMAIL = "admin@example.com"
+  const ADMIN_PASSWORD = "admin123"
+
+  const [email, setEmail] = useState(ADMIN_EMAIL)
+  const [password, setPassword] = useState(ADMIN_PASSWORD)
 
   const backendUrl = import.meta.env.VITE_BACKEND_URL
 
@@ -50,8 +53,8 @@ const Login = () => {
 
         {/* Demo Credentials */}
         <div className='text-left text-[#5E5E5E] bg-[#f9f9f9] p-4 rounded-md border w-full'>
-          <p><strong>Demo Email:</strong> admin@example.com</p>
-          <p><strong>Demo Password:</strong> admin123</p>
+          <p><strong>Demo Email:</strong> {ADMIN_EMAIL}</p>
+          <p><strong>Demo Password:</strong> {ADMIN_PASSWORD}</p>
         </div>
 
         <div className='w-full '>
