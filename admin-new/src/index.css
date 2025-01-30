@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-@tailwind base;
-@tailwind components;
+@import "tailwindcss/preflight";
 @tailwind utilities;
+/* @tailwind base;
+@tailwind components; */
 
-*{
+* {
     font-family: Outfit;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
     display: none;
 }
