@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
+/* @tailwind base;
+@tailwind components; */
 @tailwind utilities;
 
 * {
@@ -12,11 +12,11 @@
     @apply block
 }
 
-@media (max-width:740px) {
+/* @media (max-width:740px) {
     .active p {
-        @apply text-white bg-primary
+        @apply text-white bg-green-700
     }
-}
+} */
 
 ::-webkit-scrollbar {
     @apply hidden
