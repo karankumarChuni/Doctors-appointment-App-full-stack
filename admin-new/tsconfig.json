@@ -1,8 +1,0 @@
-{
-  "compilerOptions": {
-    "jsx": "react-jsx" // Ensure JSX support is enabled
-  },
-  "include": [
-    "src"
-  ]
-}
